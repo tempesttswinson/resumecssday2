@@ -1,0 +1,73 @@
+html {
+	font-family: Bellota Text;
+	background-image: url("./Pictures/flower_background.jpg");
+}
+nav li{
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-right: 30px;
+}
+nav{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+nav a, footer a{
+	text-decoration: none;	
+	color: black;
+}
+nav a:hover, footer a:hover{
+	text-decoration: underline;
+	color: darkgrey;
+}
+ul {
+}
+button {
+	padding 10px 25px;
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+button:hover {
+	background-color: pink;
+	color: white;
+}
+table td th{
+	padding: 76px;
+	margin: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+form input, form select{
+	display: block;
+}
+form label{
+	display: inline;
+}
+#unccLogo{
+	height: 150px;
+	width: 160px:;
+}
+#headshot{
+	border-radius: 50%;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	/*width: 50%;*/
+}
+#mainHeader{
+	font-family: Pacifico, cursive;
+	font-size: 50px;
+	text-align: center;
+	color: pink;
+	outline-color: grey;
+}
+footer{
+  	position: fixed;
+ 	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+}
